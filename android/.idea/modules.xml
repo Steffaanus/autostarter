@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/autostarter.iml" filepath="$PROJECT_DIR$/.idea/modules/autostarter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autostarter.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/autostarter.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autostarter.main.iml" filepath="$PROJECT_DIR$/.idea/modules/autostarter.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autostarter.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/autostarter.unitTest.iml" />
     </modules>
   </component>
 </project>
