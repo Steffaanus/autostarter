@@ -41,6 +41,12 @@ android {
         jvmTarget = JavaVersion.VERSION_1_8
     }
 
+    dependencies {
+        implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+        implementation 'com.github.judemanutd:autostarter:1.1.0'
+        implementation 'com.github.XomaDev:MIUI-autostart:master-SNAPSHOT'
+    }
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
