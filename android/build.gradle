@@ -2,7 +2,7 @@ group 'com.ytn.autostarter'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.6.10'
+    ext.kotlin_version = '1.9.24'
     repositories {
         google()
         jcenter()
@@ -30,6 +30,15 @@ android {
     compileSdk 34
     if (project.android.hasProperty("namespace")) {
         namespace "com.ytn.autostarter"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
     }
 
     sourceSets {
